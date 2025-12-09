@@ -1,0 +1,2584 @@
+fileFormatVersion: 2
+guid: 98041199be34f494fafed212c32dfbe2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 144
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1240507808ed54a97d085665de9824
+      internalID: -1744616021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 144
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aafdfabc4edfc645acd6ddd37a4f8f2
+      internalID: 466704224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f765232b2422e2148b44367443962907
+      internalID: 325641909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_3
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 144
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea87912ef1cff2948a80bca17886b8f5
+      internalID: -8308610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b3e31158c5e24c8bb7642c1458e47
+      internalID: -1810376167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499fe0b5d573f5941960a8a218a8a97f
+      internalID: -53000059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 144
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd649920956f8546adfb26fcb325834
+      internalID: -275652831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_7
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 144
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd02f2b89dd49cd45baa1d4a0231e47f
+      internalID: -1122399893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_8
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 144
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f288cd0502b6aaf4382c5e5d20c59116
+      internalID: 424179862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a592f868f2074396c67417c207c63
+      internalID: -2110237602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 144
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4929f4ee7fb4443b351b8ef242402e
+      internalID: 2140172937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0900f6cd9ab42408d147b4d7f30052
+      internalID: -1327526412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_12
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 144
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161649644380424aa1a0db09885bea8
+      internalID: 771603257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e4f1854ff70c94785132052934bd17
+      internalID: 379456930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_14
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 144
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d17c2712d6c7a47b0dcbb47a36df64
+      internalID: -127016151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_15
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df421f76ab7a4de45a009596d93196bc
+      internalID: -740975193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b14d6c84fd6747b988496238b95d2
+      internalID: 1458426148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb0ddea83691dd49b114de87c29014d
+      internalID: -72093703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252bdc4483c1e241bdb48ddf62dfd07
+      internalID: 1147247793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946ad76ce6cb076449fb601a33267d8b
+      internalID: -1926536004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83077b150b8b5264aa0d82e29e45036f
+      internalID: 874175891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_21
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb1b15c9aea5e6040bc18e30cf46abe9
+      internalID: -724954752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_22
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4e628f1055934498b1ccd659bd61c2
+      internalID: 993071188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4b9cfb5b60f924eaa223e224b47cc9
+      internalID: -1490008271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13553b51a08893a43bcf610b203b6437
+      internalID: -1609489574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe4c22ebe201d746998993d63f11135
+      internalID: 1117935708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_26
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe5c32b6e3143e41825dbdabad6b946
+      internalID: -1112389983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_27
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf439e322b2a1a0488ba8836b103141f
+      internalID: -94945011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0207b07005571499c7d4a189ff27f0
+      internalID: 486991578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 120
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22283755b503cc646a3bdd848523451b
+      internalID: -1420033257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 120
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a868436abdae3a46b25f4dac72cfb7f
+      internalID: 1893752169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 120
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21cba9edc032dcb42b41fc3edfde122a
+      internalID: -892982639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 120
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f43af4fe2b3bb458ea9331c47a2225
+      internalID: -160252640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_33
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 120
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f318e308c1f6b04aa0042d4f4c02b26
+      internalID: 1885433405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_34
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 120
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bddf0166bb2c28443b493a02e41d3674
+      internalID: -1139837451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_35
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 120
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9347febd83e1947468021c885cb4b525
+      internalID: 445432310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6ad2d8a3125884282bc123bd822975
+      internalID: -1108015131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 96
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc21a10fd5288a41b99e42fe3c47aff
+      internalID: -357708752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_38
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 96
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d379c522ad60345856f14e7faf2d4a
+      internalID: 1623445358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_39
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ecda135a4c1df143b1b5c471c7b8f21
+      internalID: -1338796041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320ee1c9bd8bb3b4fb889f363876e042
+      internalID: -1358502860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073c84e4ee3adc14f9dc074f92f2f0f4
+      internalID: 1885882412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31880712c3cb514687ba2c2e4b89944
+      internalID: -955353379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 96
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4455c85c0170744b87eece2dd2bc475
+      internalID: -151612540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db27325a44acdc446b9ec5823a898fc2
+      internalID: -1407414944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_45
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b55f47a26eb7940aa0ea47c43ef59a
+      internalID: 598058297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_46
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335552f32e29b864e9f15e8cac0a8cdc
+      internalID: 1999494889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_47
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd76381a81e6a64596967c9bdaadc0f
+      internalID: 1631328462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_48
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 97
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e483d9bfca099a84fb359de2cebfbad6
+      internalID: -1880586715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_49
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373ced8fdf5512f4f8e52883a8339c1c
+      internalID: -432771773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6f20f62c54af74086f80a1a1f03858
+      internalID: 1417673140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_51
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 96
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4accedeb6d61a5748ad1ade20efff78f
+      internalID: -97166742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 96
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b308e5d0b05cdc546bdf305f73db049d
+      internalID: 1726205469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_53
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 96
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6454f7eeac0dfc43bf8fdc0f3740a2b
+      internalID: -1103361897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_54
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 96
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82c6399922cfa5498224cc844b173ef
+      internalID: 1199537436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_55
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd1d55bcb5a2f64189f0a8862124abd
+      internalID: 1419556505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_56
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d2ebe156d7ba24fbb2061bd913ee6c
+      internalID: 7426750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_57
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 96
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b617df5e85bc8084fa9a2151b05c9f52
+      internalID: -2018990817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_58
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388be9f2874f7554fb363ee7bd91b09c
+      internalID: -1794834649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_59
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 96
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60273d9c4e14264887ef94c43b171e3
+      internalID: 1815371191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_60
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 96
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b21a3258fc6af64ebaf292ec369803a
+      internalID: -2134127134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_61
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 72
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219ee7da70d82954eb00372a8ea00f47
+      internalID: 105084835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_62
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 72
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f63c7a5fe98e449ef58d9e1707680
+      internalID: 1627500048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 72
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde8393bae704494fa95b19bd7a901fd
+      internalID: 1546685904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_64
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e74c4195b68ceb479fb63d31dc1063d
+      internalID: 777301667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 72
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62f118052f444a438276ddd07e0abfc
+      internalID: 166799257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_66
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 72
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871279fddbd6b914c8353631696fea82
+      internalID: -867162721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_67
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 72
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f1cae9c55fe854697da78950d47266
+      internalID: -1938545104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_68
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c651a53c29d3e41af4e2ec504998f3
+      internalID: -653401007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_69
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 72
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c8deca912ae2f4a93fb1a3fde675cf
+      internalID: 726620931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_70
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 72
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9839a053a9a24349adc6dc322af8452
+      internalID: 382440960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_71
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 72
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b39765b41bc84d96e0beec683850c
+      internalID: 838342340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871618f1da2705040a570bcdde02224e
+      internalID: -1371003216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 72
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec425a5de98f5142a9a6f3324fc0be2
+      internalID: 652414884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_74
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 72
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba674ef4a432fa42a01f4cbcda01da5
+      internalID: -39798140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_75
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 72
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db514ae94c893f147a856987c9ebcf8d
+      internalID: 67513370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_76
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 72
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de67bc57e23f18149aa0d7f661cdb87a
+      internalID: -2082257604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_77
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 72
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e4ef51265e5f841b5667f275fc1d5b
+      internalID: -1080680698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_78
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 72
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a846272cbc2da424dbd69c3c3e270dd4
+      internalID: 1563587723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 72
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85b49a62400dea44905f63ce11ca5f3
+      internalID: 1226798369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_80
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 72
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a31ed132ac02f489a8273590fac002
+      internalID: -533252467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_81
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 72
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbbea7c94776f846b6e3862b50c2059
+      internalID: 1994147755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_82
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 72
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe9b9b991df21fe4b87459f64ad84649
+      internalID: 1292479081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_83
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622f21b6014074d4dadbd1c26d3d044b
+      internalID: 1778797465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_89
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 32
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61feb7aaad611264c9f230924a920e67
+      internalID: -1280245780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_90
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6befd23412d09d4c8600731952cb763
+      internalID: 1068426413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_91
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 33
+        width: 8
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a86b626b9d0e4b8a6564bee3a5188
+      internalID: 599150160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_96
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d1287d2fed6d4893c813af09ee5a0
+      internalID: 530514619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2948e30b8bca5542b1fcbeaad85406f
+      internalID: 1970931986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995d3ba9449e8e849a5ed1db933598b9
+      internalID: 1962409965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e65510ff7ebbae4db7ecb0c3a34ac7f
+      internalID: 964726255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_100
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c274bfa2981fcd54eaf62d84dce709aa
+      internalID: 1117602782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_101
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 32
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0457d90906cae984793d6d2541d9de6f
+      internalID: -1026114977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_102
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 32
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba74c4385a7ad1e4084a30ba4c2d32ef
+      internalID: -1584456610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_103
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072c38e2a68d933429d5fba779aec68a
+      internalID: 441955351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_104
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 32
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afb0bad777677b4697d37f516a4aff8
+      internalID: -183447453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8143b98529015448ab9e8fca7b931f
+      internalID: 10882517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_106
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8598c4e06f6fd04792e86bdf7c730f0
+      internalID: 1211913669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_107
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46ee6d0d27f63d45b29ecb5a81aa58a
+      internalID: 100712973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_108
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 33
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1255a16818add14ea09f2fb0c934a68
+      internalID: 306145026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_109
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 32
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8e9e8b349e50442a39f36becbe3546
+      internalID: 226887244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_110
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 32
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da94d6ee200c5b4791b5f10ed99b77e
+      internalID: -1869466845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_111
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 32
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0aca4f26f1954295255b09b152c82
+      internalID: 1706748228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_112
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 32
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec7f4ae1f79c854396a9143a6a9be24
+      internalID: 1966369948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_113
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 32
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1d9973288e364593b20013768cde8
+      internalID: 1932375828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_114
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 32
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972074248616d9d47bb563431e27c209
+      internalID: -479989465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship
+        and WeaponsYES_115
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8294357d86fb0bb45b18b96ef9e59acd
+      internalID: -444883378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_0: -1744616021
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_1: 466704224
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_10: 2140172937
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_100: 1117602782
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_101: -1026114977
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_102: -1584456610
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_103: 441955351
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_104: -183447453
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_105: 10882517
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_106: 1211913669
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_107: 100712973
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_108: 306145026
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_109: 226887244
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_11: -1327526412
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_110: -1869466845
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_111: 1706748228
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_112: 1966369948
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_113: 1932375828
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_114: -479989465
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_115: -444883378
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_12: 771603257
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_13: 379456930
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_14: -127016151
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_15: -740975193
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_16: 1458426148
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_17: -72093703
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_18: 1147247793
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_19: -1926536004
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_2: 325641909
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_20: 874175891
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_21: -724954752
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_22: 993071188
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_23: -1490008271
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_24: -1609489574
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_25: 1117935708
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_26: -1112389983
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_27: -94945011
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_28: 486991578
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_29: -1420033257
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_3: -8308610
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_30: 1893752169
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_31: -892982639
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_32: -160252640
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_33: 1885433405
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_34: -1139837451
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_35: 445432310
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_36: -1108015131
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_37: -357708752
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_38: 1623445358
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_39: -1338796041
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_4: -1810376167
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_40: -1358502860
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_41: 1885882412
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_42: -955353379
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_43: -151612540
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_44: -1407414944
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_45: 598058297
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_46: 1999494889
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_47: 1631328462
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_48: -1880586715
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_49: -432771773
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_5: -53000059
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_50: 1417673140
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_51: -97166742
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_52: 1726205469
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_53: -1103361897
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_54: 1199537436
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_55: 1419556505
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_56: 7426750
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_57: -2018990817
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_58: -1794834649
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_59: 1815371191
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_6: -275652831
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_60: -2134127134
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_61: 105084835
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_62: 1627500048
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_63: 1546685904
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_64: 777301667
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_65: 166799257
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_66: -867162721
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_67: -1938545104
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_68: -653401007
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_69: 726620931
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_7: -1122399893
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_70: 382440960
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_71: 838342340
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_72: -1371003216
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_73: 652414884
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_74: -39798140
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_75: 67513370
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_76: -2082257604
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_77: -1080680698
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_78: 1563587723
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_79: 1226798369
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_8: 424179862
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_80: -533252467
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_81: 1994147755
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_82: 1292479081
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_83: 1778797465
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_84: -1947473796
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_85: -1174758878
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_86: 1090497112
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_87: -1726227814
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_88: -884712481
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_89: -1280245780
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_9: -2110237602
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_90: 1068426413
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_91: 599150160
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_92: -1389168740
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_93: -1987361395
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_94: 774704892
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_95: -1428555190
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_96: 530514619
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_97: 1970931986
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_98: 1962409965
+      Sega Genesis - Xenon 2_ Megablast (PAL) - Playable Characters - Ship and WeaponsYES_99: 964726255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
