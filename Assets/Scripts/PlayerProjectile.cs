@@ -19,9 +19,7 @@ public class PlayerProjectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Destroy the bullet when it hits something
-        Destroy(gameObject);
-
+        if (!other.CompareTag("Player")) Destroy(gameObject);
     }
 
 

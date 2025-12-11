@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9063091022412889711}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,6 +107,10 @@ MonoBehaviour:
   spriteRenderer: {fileID: 6252901017364895724}
   spriteRight: {fileID: -8308610, guid: 98041199be34f494fafed212c32dfbe2, type: 3}
   spriteDefault: {fileID: 325641909, guid: 98041199be34f494fafed212c32dfbe2, type: 3}
+  lifes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   projectilePrefab: {fileID: 6089764809188171664, guid: fdd0696834263f54abcdefc749a2b411, type: 3}
 --- !u!70 &9063091022412889711
 CapsuleCollider2D:

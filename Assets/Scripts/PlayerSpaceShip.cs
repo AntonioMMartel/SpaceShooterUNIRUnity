@@ -20,6 +20,11 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] Sprite spriteRight;
     [SerializeField] Sprite spriteDefault;
 
+    [SerializeField] GameObject[] lifes;
+    private int remainingLifes = 3;
+    [SerializeField] float invincibilityFrame = 1.0f;
+    private float invincibilityTimer = 0f; // Temporizador de cuánto lleva el i-frame
+    private bool isInvicible = false;
 
     Vector2 rawMove;
     Vector2 currentVelocity = Vector2.zero;
@@ -27,6 +32,8 @@ public class PlayerSpaceShip : MonoBehaviour
     [SerializeField] GameObject projectilePrefab;
     private void OnEnable()
     {
+        invincibilityTimer = invincibilityFrame;
+
         move.action.Enable();
         shoot.action.Enable();
 
@@ -44,6 +51,21 @@ public class PlayerSpaceShip : MonoBehaviour
         HandleMove();
         HandleShoot();
         HandleSprite();
+        HandleIFrame();
+    }
+
+    private void HandleIFrame()
+    {
+        if (isInvicible)
+        {
+            invincibilityTimer -= Time.deltaTime;
+
+            if (invincibilityTimer <= 0f)
+            {
+                isInvicible = false;
+                invincibilityTimer = invincibilityFrame;
+            }
+        }
     }
 
     private void HandleSprite()
@@ -52,11 +74,11 @@ public class PlayerSpaceShip : MonoBehaviour
         {
             spriteRenderer.sprite = spriteLeft;
         }
-        if (rawMove.x > 0)
+        if (rawMove.x > 0) // Derecha
         {
             spriteRenderer.sprite = spriteRight;
         }
-        if(rawMove.x == 0) 
+        if(rawMove.x == 0) // Normal
         {
             spriteRenderer.sprite = spriteDefault;
         }
@@ -109,7 +131,6 @@ public class PlayerSpaceShip : MonoBehaviour
         shoot.action.started -= StartShooting;
         shoot.action.canceled -= StopShooting;
     }
-    private Coroutine shootingCoroutine = null;
     private void StartShooting(InputAction.CallbackContext context)
     {
         isShooting = true;    
@@ -124,14 +145,36 @@ public class PlayerSpaceShip : MonoBehaviour
     {
         rawMove = context.ReadValue<Vector2>();
     }
-
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("EnemyShot"))
         {
-          
+            if (isInvicible) return;
+
+            if (remainingLifes > 0)
+            {
+                Destroy(lifes[remainingLifes - 1]);
+                remainingLifes--;
+                isInvicible = true;
+                StartCoroutine(PlayerSpritePulse());
+            }
+            else
+            {
+                Destroy(gameObject);
+                FindObjectOfType<GameManager>().GameIsOver();
+            }
         }
     }
 
+    IEnumerator PlayerSpritePulse()
+    {
+        while (isInvicible)
+        {
+            spriteRenderer.enabled = !spriteRenderer.enabled;
+            yield return new WaitForSeconds(0.1f);
+        }
+
+        spriteRenderer.enabled = true;
+    }
 
 }

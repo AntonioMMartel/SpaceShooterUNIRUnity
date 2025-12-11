@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemyProjectile : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
+    [SerializeField] float lifetime = 10f;
 
     [SerializeField] Animator animator;
 
@@ -13,7 +14,7 @@ public class EnemyProjectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject, lifetime);
     }
 
     // Update is called once per frame

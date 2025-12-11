@@ -11,10 +11,14 @@ public class Enemy : MonoBehaviour
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] float fireRate = 2f;
 
+    [SerializeField] GameObject barrel1;
+    [SerializeField] GameObject barrel2;
+
     [SerializeField] Animator animator;
     // Start is called before the first frame update
     void Start()
     {
+        animator.SetTrigger("Shooting");
     }
 
     // Update is called once per frame
@@ -31,7 +35,8 @@ public class Enemy : MonoBehaviour
 
         if (timeFromLastShot > fireRate)
         {
-            Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+            Instantiate(projectilePrefab, barrel1.transform.position, Quaternion.identity);
+            Instantiate(projectilePrefab, barrel2.transform.position, Quaternion.identity);
             timeFromLastShot = 0;
         }
 
