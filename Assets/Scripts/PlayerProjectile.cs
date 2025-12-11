@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerProjectile : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
+    [SerializeField] float lifetime = 5f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Destroy(gameObject, lifetime);
     }
 
     // Update is called once per frame
@@ -16,4 +17,12 @@ public class PlayerProjectile : MonoBehaviour
     {
         transform.Translate(Vector3.up * Time.deltaTime * speed);
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // Destroy the bullet when it hits something
+        Destroy(gameObject);
+
+    }
+
+
 }

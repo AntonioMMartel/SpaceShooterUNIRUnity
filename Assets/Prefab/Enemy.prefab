@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6719327469531545504}
   - component: {fileID: 9130179269896375946}
   - component: {fileID: 1880270356370271761}
+  - component: {fileID: 5543243132016779051}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -99,6 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  explosionDuration: 0.5
+  projectilePrefab: {fileID: 6089764809188171664, guid: 6f0692c8c6a954d4cb59f4afa87a5702, type: 3}
+  fireRate: 2
+  animator: {fileID: 5543243132016779051}
 --- !u!58 &1880270356370271761
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -134,3 +139,24 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.125
+--- !u!95 &5543243132016779051
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24313812952310759}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fc488c267c09eba43b6d786df4062543, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
