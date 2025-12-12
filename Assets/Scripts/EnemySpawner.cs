@@ -10,41 +10,81 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] Transform spawnLineBottom;
     [SerializeField] Transform[] spawnPoints;
 
-    [SerializeField] SpawnMode spawnMode;
+    [SerializeField] SpawnModes spawnModes;
+    [SerializeField] GameObject[] enemyTypes;
 
-    public enum SpawnMode{
+    [SerializeField] float spawnTime = 5f;
+
+    public enum SpawnModes{
         Line,
         Points
     }
     // Start is called before the first frame update
     void Start()
     {
-        if (spawnMode == SpawnMode.Line)
+        StartCoroutine(SpawnWave());        
+    }
+
+    IEnumerator SpawnWave()
+    {
+        int select_formation = Random.Range(0, 3);
+        if (select_formation == 0)
         {
             StartCoroutine(LineSpawning());
-        } else {
-            int numPoints = spawnPoints.Length;
-            int j = Random.Range(0, numPoints);
-
-            Vector3 startPos = spawnPoints[j].position;
-
-            Instantiate(enemyPrefab, startPos, Quaternion.identity);
+        }
+        else if (select_formation == 1)
+        {
+            StartCoroutine(RandomPointSpawning());
+        } else
+        {
+            StartCoroutine(AllPointSpawning());
         }
         
+        yield return new WaitForSeconds(spawnTime);
+
+        yield return SpawnWave();
     }
 
     IEnumerator LineSpawning()
     {
+        GameObject selected_enemy = enemyTypes[Random.Range(0, 2)];
         Vector3 lineTop = spawnLineTop.position;
         Vector3 lineBottom = spawnLineBottom.position;
         for (int i = 0; i < 4; i++)
         {
             float t = Random.Range(0f, 1f);
             Vector3 startPos = Vector3.Lerp(lineTop, lineBottom, t);
-            Instantiate(enemyPrefab, startPos, Quaternion.identity);
+            Instantiate(selected_enemy, startPos, Quaternion.identity);
 
             yield return new WaitForSeconds(0.5f);
         }
+    }
+
+    IEnumerator RandomPointSpawning()
+    {
+        GameObject selected_enemy = enemyTypes[Random.Range(0, 2)];
+        int numPoints = spawnPoints.Length;
+        int j = Random.Range(0, numPoints);
+
+        Vector3 startPos = spawnPoints[j].position;
+
+        Instantiate(selected_enemy, startPos, Quaternion.identity);
+        yield return new WaitForSeconds(0.5f);
+    }
+
+    IEnumerator AllPointSpawning()
+    {
+        GameObject selected_enemy = enemyTypes[Random.Range(0, 2)];
+        for (int i = 0; i < spawnPoints.Length; i++)
+        {
+            int numPoints = spawnPoints.Length;
+            int j = Random.Range(0, numPoints);
+
+            Vector3 startPos = spawnPoints[j].position;
+
+            Instantiate(selected_enemy, startPos, Quaternion.identity);
+        }
+        yield return new WaitForSeconds(0.5f);
     }
 
     // Update is called once per frame

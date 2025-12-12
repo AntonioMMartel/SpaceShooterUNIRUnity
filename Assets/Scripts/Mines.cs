@@ -2,47 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Mines : MonoBehaviour
 {
-    [SerializeField] float speed = 0.5f;
+    [SerializeField] float speed = 0.2f;
     Vector3 linearVelocity = Vector3.down;
     [SerializeField] float explosionDuration = 1f;
 
-    [SerializeField] GameObject projectilePrefab;
-    [SerializeField] float fireRate = 2f;
-
-    [SerializeField] GameObject barrel1;
-    [SerializeField] GameObject barrel2;
-
-    [SerializeField] Animator animator; 
+    [SerializeField] Animator animator;
 
     [SerializeField] GameObject scoreManager;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        animator.SetTrigger("Shooting");
-    }
-
+    
     // Update is called once per frame
     void Update()
     {
         HandleMove();
-        HandleShoot();
-    }
-
-    private float timeFromLastShot;
-    private void HandleShoot()
-    {
-        timeFromLastShot += Time.deltaTime;
-
-        if (timeFromLastShot > fireRate)
-        {
-            Instantiate(projectilePrefab, barrel1.transform.position, Quaternion.identity);
-            Instantiate(projectilePrefab, barrel2.transform.position, Quaternion.identity);
-            timeFromLastShot = 0;
-        }
-
     }
     private void HandleMove()
     {
@@ -56,14 +29,13 @@ public class Enemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (isDying) return;
-        if (other.CompareTag("PlayerShot"))
+        if (other.CompareTag("PlayerShot") || other.CompareTag("Player"))
         {
             Collider2D collider = GetComponent<Collider2D>();
             collider.enabled = false;
             animator.SetTrigger("Explosion");
             Destroy(gameObject, explosionDuration);
             FindObjectOfType<ScoreManager>().AddScore(100);
-
         }
     }
 }

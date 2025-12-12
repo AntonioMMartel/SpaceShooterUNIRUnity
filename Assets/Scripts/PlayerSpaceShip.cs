@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,6 +31,9 @@ public class PlayerSpaceShip : MonoBehaviour
     Vector2 currentVelocity = Vector2.zero;
 
     [SerializeField] GameObject projectilePrefab;
+
+    private float xMin, yMin, xMax, yMax;
+    [SerializeField] float padding = 0.5f;
     private void OnEnable()
     {
         invincibilityTimer = invincibilityFrame;
@@ -43,6 +47,7 @@ public class PlayerSpaceShip : MonoBehaviour
 
         shoot.action.started += StartShooting;
         shoot.action.canceled += StopShooting;
+
     }
 
     // Update is called once per frame
@@ -115,7 +120,7 @@ public class PlayerSpaceShip : MonoBehaviour
 
         // Pillamos dirección del jugador y le añadimos la velocidad que queremos
         currentVelocity = currentVelocity.normalized * linearVelocity;
-
+       
         transform.Translate(currentVelocity * Time.deltaTime);
     }
 
@@ -143,11 +148,15 @@ public class PlayerSpaceShip : MonoBehaviour
 
     private void OnMove(InputAction.CallbackContext context)
     {
-        rawMove = context.ReadValue<Vector2>();
+        rawMove = context.ReadValue<Vector2>(); 
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("EnemyShot"))
+        if (other.CompareTag("Limit"))
+        {
+            transform.position = new Vector3(0, -1, transform.position.z);
+        }
+        if (other.CompareTag("EnemyShot") || other.CompareTag("Mine"))
         {
             if (isInvicible) return;
 
